@@ -1,33 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-<<<<<<< HEAD
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="./assets/css/style.css" />
-  <title>Library of Congress Search Tool</title>
-</head>
-
-<body>
-
-    
-</body>
-=======
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
 
-    <title>Document</title>
+    <title>Library of Congress Search Tool</title>
 </head>
 <body>
+      <h1 class="app-title">
+    Library of Congress Search Engine
+      </h1>
+      <main class="flex-row">
+        <div class="col-12 col-md-4">
     
-
-
+          <div class="card">
+            <form id="searchBar" class="card-body">
+              <label class="search-label" for="term">Search</label>
+              <input name="Search" id="search" type="text" autofocus="true" class="form-input" />
+              <button type="submit" class="btn">Click me!</button>
+            </form>
+          </div>
+        <div class="card">
+            <label class="format" for="formats">Select a format...</label>
+            <select name="formats" id="formats">
+            <option value="maps">Maps</option>
+            <option value="audio">Audio recordings</option>
+            <option value="photos">Photo, Print, Drawing</option>
+            <option value="manuscripts">Manuscripts/Mixed material</option>
+            <option value="newspapers">Newspapers</option>
+            <option value="film-and-videos">Film, Videos</option>
+            <option value="notated-music">Printed music</option>
+            <option value="websites">Websites</option></select>
+        </div>
     <script href="./assets/javascript/scrpit.js"></script>
 </body>
 </html>
->>>>>>> 3d468e1892226c84614bd5aff0db78d9cf272680
