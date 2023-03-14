@@ -1,13 +1,25 @@
-.searchResults{
+.container{
 display: flex;
-justify-content: end;
-background-color: wheat;
+flex-wrap: nowrap;
+}
+
+.searchResults {
+    display: flex;
+    justify-content: end;
+    background-color: wheat;
+    width:400px;
+    height: 100vh;
 
 }
-.sideBar{
-    display: block;
+
+.sideBar {
+    display: flex;
     justify-content: start;
     background-color: coral;
-height: 100vh;
+    width:400px;
+    height: 100vh;
 
+}
+.title{
+    font-weight: bold;
 }
