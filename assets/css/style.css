@@ -1,0 +1,25 @@
+.container{
+display: flex;
+flex-wrap: nowrap;
+}
+
+.searchResults {
+    display: flex;
+    justify-content: end;
+    background-color: wheat;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.sideBar {
+    display: flex;
+    justify-content: start;
+    background-color: coral;
+    width:25%;
+    height: 100vh;
+
+}
+.title{
+    font-weight: bold;
+}
