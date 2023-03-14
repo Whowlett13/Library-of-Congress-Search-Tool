@@ -1,0 +1,13 @@
+.searchResults{
+display: flex;
+justify-content: end;
+background-color: wheat;
+
+}
+.sideBar{
+    display: block;
+    justify-content: start;
+    background-color: coral;
+height: 100vh;
+
+}
